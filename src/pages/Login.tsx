@@ -29,7 +29,7 @@ const Login = () => {
                         <section className="relative flex">
                             <input
                                 type="text"
-                                className="m-2 w-full rounded-md border border-gray-300 p-3 font-IRANSans text-[1.3rem] text-sm outline-none transition focus-within:border-gray-400"
+                                className="m-2 w-full shadow-md shadow-slate-200 rounded-md border border-gray-300 p-3 font-IRANSans text-[1.3rem] text-sm outline-none transition focus-within:border-gray-400 focus-within:bg-slate-200"
                                 placeholder="نام کاربری"
                             />
                             <UserIcon className="absolute left-8 top-6 h-[18px] w-[18px] font-IRANSansBold text-gray-500" />
@@ -37,7 +37,7 @@ const Login = () => {
                         <section className="relative flex">
                             <input
                                 type={showPassword ? "text" : "password"}
-                                className="m-2 w-full rounded-md border border-gray-300 p-3 font-IRANSans text-[1.3rem] text-sm outline-none transition focus-within:border-gray-400"
+                                className="m-2 w-full shadow-md shadow-slate-200 rounded-md border border-gray-300 p-3 font-IRANSans text-[1.3rem] text-sm outline-none transition focus-within:border-gray-400 focus-within:bg-slate-200"
                                 placeholder="رمز عبور"
                             />
                             {showPassword ? (
@@ -53,7 +53,7 @@ const Login = () => {
                             )}
                         </section>
                         <section className="relative flex">
-                            <button className="m-1 w-full rounded-md bg-primary p-4 font-IRANSans text-[1.4rem] text-white transition hover:bg-orange-500">
+                            <button className="m-1 w-full shadow-sm shadow-primary rounded-md bg-primary p-4 font-IRANSans text-[1.4rem] text-white transition hover:bg-orange-500">
                                 ورود
                             </button>
                         </section>
