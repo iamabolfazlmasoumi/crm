@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  direction: rtl;
+}
+
+/* ADDED FONTS */
+@font-face {
+  font-family: IRANSans;
+  src: url("../assets/fonts/ttf/IRANSansWeb(FaNum).ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: IRANSansBold;
+  src: url("../assets/fonts/ttf/IRANSansWeb(FaNum)_Bold.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: IRANSansLight;
+  src: url("../assets/fonts/ttf/IRANSansWeb(FaNum)_Light.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: IRANSansMedium;
+  src: url("../assets/fonts/ttf/IRANSansWeb(FaNum)_Medium.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: IRANSansUltraLight;
+  src: url("../assets/fonts/ttf/IRANSansWeb(FaNum)_UltraLight.ttf");
+  font-style: normal;
+}
+/* ENDED FONTS */
+.container {
+  width: 100% !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+}
+@media only screen and (min-width: 576px) {
+  .container {
+    max-width: 540px !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 720px !important;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 960px !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px !important;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px !important;
+  }
+}/*# sourceMappingURL=main.css.map */
